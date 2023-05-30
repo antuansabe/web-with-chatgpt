@@ -1,29 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi página web</title>
+  <title>Mi Portafolio Personal</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Bienvenido a mi página web</h1>
+    <img src="./img/Captura de Pantalla 2023-01-11 a la(s) 7.46.01.png" alt="Logo" class="logo">
+    <h1>Antonio Dromundo</h1>
   </header>
+  
 
-  <nav>
-    <ul>
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#">Acerca de</a></li>
-      <li><a href="#">Contacto</a></li>
-    </ul>
-  </nav>
-
-  <section>
+  <section id="about">
     <h2>Acerca de mí</h2>
-    <p>Soy un apasionado del desarrollo web y me encanta crear sitios increíbles.</p>
+    <p>Soy un apasionado desarrollador web con experiencia en HTML, CSS, JavaScript, React, Drupal, WordPress y otras tecnologías modernas. Me especializo en crear sitios web cautivadores y funcionales, y disfruto de los desafíos técnicos que se presentan en cada proyecto. Mi enfoque está en construir experiencias digitales impactantes y ayudar a los clientes a alcanzar sus metas en línea.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Proyectos Destacados</h2>
+    <div class="project">
+      <h3>Proyecto 1</h3>
+      <p>Descripción del proyecto 1.</p>
+    </div>
+    <div class="project">
+      <h3>Proyecto 2</h3>
+      <p>Descripción del proyecto 2.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Texto de la sección de contacto.</p>
+    <form>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" placeholder="Nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Email" required>
+
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="6" placeholder="Mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
   </section>
 
   <footer>
-    <p>Derechos de autor &copy; 2023 Mi página web</p>
+    <p>Derechos de autor &copy; 2023 | Todos los derechos reservados</p>
   </footer>
 </body>
 </html>
