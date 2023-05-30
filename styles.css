@@ -133,11 +133,14 @@ body {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+margin-bottom: 20px;
 }
 
 #contact form button:hover {
   background-color: #FFCB00; /* Color de fondo del botón al pasar el mouse */
 }
+
+
 
 footer {
   text-align: center; /* Alinea el contenido al centro */
@@ -145,6 +148,35 @@ footer {
   background-color: #1A202C; /* Cambia el color de fondo del footer */
   color: #F7FFF7; /* Cambia el color del texto */
 }
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #FFCB00;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #6D214F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Estilos generales */
