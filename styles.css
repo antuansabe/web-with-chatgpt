@@ -14,6 +14,24 @@ body {
     padding: 50px;
   }
   
+/* Estilos del contenedor principal */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Distribuye el espacio en dos columnas iguales */
+  grid-gap: 50px; /* Espacio entre las columnas */
+}
+
+/* Estilos de la sección "Acerca de mí" */
+#about {
+  grid-column: 1 / span 1; /* Ocupa la primera columna */
+}
+
+/* Estilos de la sección "Proyectos destacados" */
+#projects {
+  grid-column: 2 / span 1; /* Ocupa la segunda columna */
+}
+
+  
  /* Estilos de la imagen  */
   .logo {
     width: 200px;
@@ -39,16 +57,21 @@ body {
     padding: 100px 50px;
   }
   
-  h2 {
+  #about > h2 {
     font-size: 30px;
     margin-bottom: 30px;
-    color: #F7FFF7; /* Color del título de la sección */
+    color: #FFCB00; /* Color del título de la sección */
   }
   
   /* Estilos de la sección "Proyectos Destacados" */
   #projects {
     background-color: #FFCB00; /* Color de fondo de la sección */
     padding: 100px 50px;
+  }
+
+  #projects > h2 {
+    color:  #6D214F;
+    margin-bottom: 40px;
   }
   
   .project {
